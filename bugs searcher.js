@@ -19,3 +19,6 @@ const settings =
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,}
 }
+
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
+  "exclude": ["node_modules"]
